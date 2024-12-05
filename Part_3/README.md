@@ -23,3 +23,20 @@ Vous êtes libre d'utiliser le framework frontend et librairies tierces de votre
 #### Démarrage
 `npm install` &&
 `npm run dev`
+
+##### Page d'accueil
+![Page_accueil!](./public/Screenshoots/1.png "Page_accueil")
+
+##### Dark mode
+![DarkMode!](./public/Screenshoots/2.png "DarkMode")
+
+##### Statistiques
+
+![Statistiques!](./public/Screenshoots/3.png "Statistiques")
+![Statistiques!](./public/Screenshoots/4.png "Statistiques")
+
+##### Tableau
+![Tableau](./public/Screenshoots/5.png "Tableau")
+
+##### Liste
+![Liste](./public/Screenshoots/6.png "Liste")
