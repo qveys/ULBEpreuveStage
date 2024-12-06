@@ -43,3 +43,16 @@
 - Permet la correction d'erreurs
 - Gestion individuelle uniquement
 - Pas de suppression en masse
+
+### 2. Contraintes métier identifiées
+
+##### 2.1 Contraintes dures
+1. Un étudiant ne peut avoir qu'une seule attribution
+2. Une place ne peut être attribuée qu'à hauteur de sa capacité
+3. Les identifiants hopital/service doivent être valides
+
+##### 2.2 Contraintes souples
+1. Respecter l'ordre de préférence quand possible
+2. Éviter les exclusions si possible
+3. Suivre l'ordre du classement
+
