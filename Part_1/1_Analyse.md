@@ -98,3 +98,63 @@
 3. Pas de logs accessibles
 4. Pas de traçage des opérations
 
+### 5. Recommandations d'implémentation
+
+##### 5.1 Gestion des données
+1. Mettre en cache les données statiques (hôpitaux, services)
+2. Précharger les données de référence
+3. Implémenter un mécanisme de retry sur erreur
+4. Maintenir une cohérence locale
+
+##### 5.2 Gestion des erreurs
+1. Implémenter un circuit breaker
+2. Valider les données avant envoi
+3. Logger toutes les erreurs
+4. Prévoir des mécanismes de reprise
+
+##### 5.3 Optimisations possibles
+1. Batching des requêtes
+2. Mise en cache côté client
+3. Compression des données
+4. Préchargement intelligent
+
+### 6. Impacts sur l'architecture client
+
+##### 6.1 État global
+- Gestion du cache
+- Synchronisation des données
+- Gestion des erreurs
+- État de chargement
+
+##### 6.2 Interface utilisateur
+- Feedback temps réel
+- Validation côté client
+- Gestion de la pagination
+- États de chargement
+
+##### 6.3 Performance
+- Stratégie de cache
+- Gestion des requêtes parallèles
+- Optimisation du rendu
+- Lazy loading des données
+
+### 7. Proposition de bonnes pratiques
+
+##### 7.1 Déeloppement
+1. Tests exhaustifs des scénarios d'erreur
+2. Validation préalable côté client
+3. Logging détaillé
+4. Documentation du code
+
+##### 7.2 Exploitation
+1. Monitoring des temps de réponse
+2. Alerting sur erreurs
+3. Backup des données
+4. Plan de reprise
+
+##### 7.3 Maintenance
+1. Versionning du code
+2. Documentation des changements
+3. Tests de non-régression
+4. Revue de code
+
